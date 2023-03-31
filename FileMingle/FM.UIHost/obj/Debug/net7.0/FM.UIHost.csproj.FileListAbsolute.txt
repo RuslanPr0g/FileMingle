@@ -31,3 +31,10 @@ C:\Users\rudenko-nb\Desktop\FileMingle\FileMingle\FM.UIHost\obj\Debug\net7.0\ref
 C:\Users\rudenko-nb\Desktop\FileMingle\FileMingle\FM.UIHost\obj\Debug\net7.0\FM.UIHost.pdb
 C:\Users\rudenko-nb\Desktop\FileMingle\FileMingle\FM.UIHost\obj\Debug\net7.0\FM.UIHost.genruntimeconfig.cache
 C:\Users\rudenko-nb\Desktop\FileMingle\FileMingle\FM.UIHost\obj\Debug\net7.0\ref\FM.UIHost.dll
+C:\Users\rudenko-nb\Desktop\FileMingle\FileMingle\FM.UIHost\bin\Debug\net7.0\RestSharp.dll
+C:\Users\rudenko-nb\Desktop\FileMingle\FileMingle\FM.UIHost\bin\Debug\net7.0\FM.Application.dll
+C:\Users\rudenko-nb\Desktop\FileMingle\FileMingle\FM.UIHost\bin\Debug\net7.0\FM.Domain.dll
+C:\Users\rudenko-nb\Desktop\FileMingle\FileMingle\FM.UIHost\bin\Debug\net7.0\FM.Integration.dll
+C:\Users\rudenko-nb\Desktop\FileMingle\FileMingle\FM.UIHost\bin\Debug\net7.0\FM.Application.pdb
+C:\Users\rudenko-nb\Desktop\FileMingle\FileMingle\FM.UIHost\bin\Debug\net7.0\FM.Domain.pdb
+C:\Users\rudenko-nb\Desktop\FileMingle\FileMingle\FM.UIHost\bin\Debug\net7.0\FM.Integration.pdb

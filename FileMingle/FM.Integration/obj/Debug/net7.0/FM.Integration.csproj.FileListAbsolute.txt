@@ -1,0 +1,12 @@
+C:\Users\rudenko-nb\Desktop\FileMingle\FileMingle\FM.Integration\bin\Debug\net7.0\FM.Integration.deps.json
+C:\Users\rudenko-nb\Desktop\FileMingle\FileMingle\FM.Integration\bin\Debug\net7.0\FM.Integration.dll
+C:\Users\rudenko-nb\Desktop\FileMingle\FileMingle\FM.Integration\bin\Debug\net7.0\FM.Integration.pdb
+C:\Users\rudenko-nb\Desktop\FileMingle\FileMingle\FM.Integration\obj\Debug\net7.0\FM.Integration.csproj.AssemblyReference.cache
+C:\Users\rudenko-nb\Desktop\FileMingle\FileMingle\FM.Integration\obj\Debug\net7.0\FM.Integration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rudenko-nb\Desktop\FileMingle\FileMingle\FM.Integration\obj\Debug\net7.0\FM.Integration.AssemblyInfoInputs.cache
+C:\Users\rudenko-nb\Desktop\FileMingle\FileMingle\FM.Integration\obj\Debug\net7.0\FM.Integration.AssemblyInfo.cs
+C:\Users\rudenko-nb\Desktop\FileMingle\FileMingle\FM.Integration\obj\Debug\net7.0\FM.Integration.csproj.CoreCompileInputs.cache
+C:\Users\rudenko-nb\Desktop\FileMingle\FileMingle\FM.Integration\obj\Debug\net7.0\FM.Integration.dll
+C:\Users\rudenko-nb\Desktop\FileMingle\FileMingle\FM.Integration\obj\Debug\net7.0\refint\FM.Integration.dll
+C:\Users\rudenko-nb\Desktop\FileMingle\FileMingle\FM.Integration\obj\Debug\net7.0\FM.Integration.pdb
+C:\Users\rudenko-nb\Desktop\FileMingle\FileMingle\FM.Integration\obj\Debug\net7.0\ref\FM.Integration.dll

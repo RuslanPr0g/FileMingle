@@ -12,34 +12,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="108d5d33-8bc3-4be1-b781-b8788248da45" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/FM.Domain/Base/AggregateRoot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FM.Domain/Base/IValueObject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FM.Domain/Entities/Content.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FM.Domain/Entities/File.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FM.Domain/Entities/Name.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FM.UIHost/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FileMingle/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FileMingle/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FileMingle/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FileMingle.csproj" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/FM.Integration/Clients/FileClient.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FM.Integration/Clients/IFileClient.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FM.Integration/Extensions/IntegrationExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FM.UIHost/DTO/FileUpload.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FM.UIHost/Endpoints.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FileMingle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FileMingle/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FM.Application/Extensions/ApplicationExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FM.Application/Extensions/ApplicationExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FM.Application/FM.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/FM.Application/FM.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FM.Application/Services/FileService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FM.Application/Services/FileService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FM.Application/Services/IFileService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FM.Application/Services/IFileService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FM.Application/obj/Debug/net7.0/FM.Application.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FM.Application/obj/Debug/net7.0/FM.Application.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FM.Application/obj/Debug/net7.0/FM.Application.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FM.Application/obj/Debug/net7.0/FM.Application.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FM.Application/obj/FM.Application.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/FM.Application/obj/FM.Application.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FM.Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/FM.Application/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FM.Application/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FM.Application/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FM.Application/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/FM.Application/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FM.Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/FM.Application/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FM.Domain/Entities/File.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FM.Domain/Entities/StorableFile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FM.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/FM.Domain/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FM.UIHost/Endpoints/Endpoints.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FM.UIHost/FM.UIHost.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/FM.UIHost/FM.UIHost.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FM.UIHost/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FM.UIHost/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FM.UIHost/bin/Debug/net7.0/FM.UIHost.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/FM.UIHost/bin/Debug/net7.0/FM.UIHost.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FM.UIHost/bin/Debug/net7.0/FM.UIHost.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FM.UIHost/bin/Debug/net7.0/FM.UIHost.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FM.UIHost/bin/Debug/net7.0/FM.UIHost.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FM.UIHost/bin/Debug/net7.0/FM.UIHost.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FM.UIHost/obj/Debug/net7.0/FM.UIHost.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FM.UIHost/obj/Debug/net7.0/FM.UIHost.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FM.UIHost/obj/Debug/net7.0/FM.UIHost.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FM.UIHost/obj/Debug/net7.0/FM.UIHost.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FM.UIHost/obj/Debug/net7.0/FM.UIHost.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FM.UIHost/obj/Debug/net7.0/FM.UIHost.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FM.UIHost/obj/Debug/net7.0/FM.UIHost.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FM.UIHost/obj/Debug/net7.0/FM.UIHost.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FM.UIHost/obj/Debug/net7.0/FM.UIHost.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FM.UIHost/obj/Debug/net7.0/FM.UIHost.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FM.UIHost/obj/Debug/net7.0/FM.UIHost.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FM.UIHost/obj/Debug/net7.0/FM.UIHost.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FM.UIHost/obj/Debug/net7.0/ref/FM.UIHost.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FM.UIHost/obj/Debug/net7.0/ref/FM.UIHost.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FM.UIHost/obj/Debug/net7.0/refint/FM.UIHost.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FM.UIHost/obj/Debug/net7.0/refint/FM.UIHost.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FM.UIHost/obj/FM.UIHost.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/FM.UIHost/obj/FM.UIHost.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FM.UIHost/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/FM.UIHost/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FM.UIHost/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FM.UIHost/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FM.UIHost/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/FM.UIHost/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FM.UIHost/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/FM.UIHost/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FileMingle.sln" beforeDir="false" afterPath="$PROJECT_DIR$/FileMingle.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/FileMingle.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/FileMingle.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/FileMingle.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/FileMingle.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/FileMingle.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/FileMingle.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/FileMingle.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/FileMingle.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/FileMingle.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,26 +60,28 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectId" id="2NSmQBgQTG71iFlWpDW2Vr36Yll" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\rudenko-nb\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\rudenko-nb\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\rudenko-nb\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\rudenko-nb\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\rudenko-nb\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\rudenko-nb\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.FM.UIHost: http">
     <configuration name="FM.UIHost" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -207,15 +220,26 @@
       <updated>1679665842663</updated>
       <workItem from="1679665843423" duration="35000" />
       <workItem from="1679867210503" duration="60000" />
-      <workItem from="1680276242999" duration="2913000" />
+      <workItem from="1680276242999" duration="5569000" />
     </task>
+    <task id="LOCAL-00001" summary="Basic project structure">
+      <created>1680280280858</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680280280858</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Basic project structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic project structure" />
   </component>
 </project>

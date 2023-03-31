@@ -1,6 +1,13 @@
-﻿namespace FM.Application.Extensions;
+﻿using FM.Application.Services;
+using Microsoft.Extensions.DependencyInjection;
 
-public class ApplicationExtensions
+namespace FM.Application.Extensions;
+
+public static class ApplicationExtensions
 {
-    
+    public static IServiceCollection AddApplication(this IServiceCollection services)
+    {
+        services.AddScoped<IFileService, FileService>();
+        return services;
+    }
 }

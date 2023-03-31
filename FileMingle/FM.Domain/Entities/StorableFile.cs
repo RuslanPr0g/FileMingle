@@ -1,8 +1,8 @@
 ﻿namespace FM.Domain.Entities;
 
-public sealed class File : AggregateRoot
+public sealed class StorableFile : AggregateRoot
 {
-    public File(Guid id, Name name, Content content) : base(id)
+    public StorableFile(Guid id, Name name, Content content) : base(id)
     {
         Name = name;
         Content = content;

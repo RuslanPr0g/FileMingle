@@ -1,0 +1,12 @@
+C:\Users\rudenko-nb\Desktop\FileMingle\FileMingle\FM.Domain\bin\Debug\net7.0\FM.Domain.deps.json
+C:\Users\rudenko-nb\Desktop\FileMingle\FileMingle\FM.Domain\bin\Debug\net7.0\FM.Domain.dll
+C:\Users\rudenko-nb\Desktop\FileMingle\FileMingle\FM.Domain\bin\Debug\net7.0\FM.Domain.pdb
+C:\Users\rudenko-nb\Desktop\FileMingle\FileMingle\FM.Domain\obj\Debug\net7.0\FM.Domain.csproj.AssemblyReference.cache
+C:\Users\rudenko-nb\Desktop\FileMingle\FileMingle\FM.Domain\obj\Debug\net7.0\FM.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rudenko-nb\Desktop\FileMingle\FileMingle\FM.Domain\obj\Debug\net7.0\FM.Domain.AssemblyInfoInputs.cache
+C:\Users\rudenko-nb\Desktop\FileMingle\FileMingle\FM.Domain\obj\Debug\net7.0\FM.Domain.AssemblyInfo.cs
+C:\Users\rudenko-nb\Desktop\FileMingle\FileMingle\FM.Domain\obj\Debug\net7.0\FM.Domain.csproj.CoreCompileInputs.cache
+C:\Users\rudenko-nb\Desktop\FileMingle\FileMingle\FM.Domain\obj\Debug\net7.0\FM.Domain.dll
+C:\Users\rudenko-nb\Desktop\FileMingle\FileMingle\FM.Domain\obj\Debug\net7.0\refint\FM.Domain.dll
+C:\Users\rudenko-nb\Desktop\FileMingle\FileMingle\FM.Domain\obj\Debug\net7.0\FM.Domain.pdb
+C:\Users\rudenko-nb\Desktop\FileMingle\FileMingle\FM.Domain\obj\Debug\net7.0\ref\FM.Domain.dll

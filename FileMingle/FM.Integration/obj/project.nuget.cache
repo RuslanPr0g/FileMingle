@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "UrPxDCXiZmmDwhJxE5kLx4SVYyia/fZT9WcCne32DWIh5J3c4ABgC2U5N4CugBrVpbBWjWdBR8L05U5YyRNEIw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rudenko-nb\\Desktop\\FileMingle\\FileMingle\\FM.Integration\\FM.Integration.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rudenko-nb\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\rudenko-nb\\.nuget\\packages\\restsharp\\109.0.1\\restsharp.109.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

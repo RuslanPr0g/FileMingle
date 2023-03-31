@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "LVe8Zq6qd+xYtCM7D64T6/4YA4ASW7+P84FCuTjaznoVE/Pt318G179tcp/eKJ7EuDdefGJHDR+wiCEL5+ramg==",
+  "dgSpecHash": "bHVdjxgjvvTPd5vz2CtiUYZWs8ej9FX6edrVCT8RSINzVbj3xrr4R08NRi7YAfRZBdqeh55nz54yKL0ejDaQng==",
   "success": true,
   "projectFilePath": "C:\\Users\\rudenko-nb\\Desktop\\FileMingle\\FileMingle\\FM.Application\\FM.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\rudenko-nb\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\rudenko-nb\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\rudenko-nb\\.nuget\\packages\\restsharp\\109.0.1\\restsharp.109.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
