@@ -4,12 +4,13 @@ minh.Insert("bebra 1", 1);
 minh.Insert("bebra 5", 5);
 minh.Insert("bebra 2", 2);
 minh.Insert("bebra 3", 3);
+Console.WriteLine(minh.Peek());
 Console.WriteLine(minh.Pop());
 Console.WriteLine(minh.Pop());
 Console.WriteLine(minh.Pop());
 Console.WriteLine(minh.Pop());
 Console.WriteLine(minh.Pop());
-Console.WriteLine(minh.Pop()); // empty output
+Console.WriteLine(minh.Pop() ?? "Empty heap"); // empty output
 
 public sealed class MinHeap<T>
 {
@@ -82,13 +83,50 @@ public sealed class MinHeap<T>
 
     private void SwapWithLeaf(int index)
     {
+        Swap(index, Count - 1);
     }
 
     private void SiftDown(int index = 0)
     {
+        int leftChild = 2 * index + 1;
+        int rightChild = 2 * index + 2;
+        int smallest = index;
+
+        if (leftChild < Count && _values[leftChild].Priority < _values[smallest].Priority)
+        {
+            smallest = leftChild;
+        }
+
+        if (rightChild < Count && _values[rightChild].Priority < _values[smallest].Priority)
+        {
+            smallest = rightChild;
+        }
+
+        if (smallest != index)
+        {
+            Swap(index, smallest);
+            SiftDown(smallest);
+        }
     }
 
     private void SiftUp(int index)
     {
+        int parentIndex = (index - 1) / 2;
+
+        while (index > 0 && _values[index].Priority < _values[parentIndex].Priority)
+        {
+            Swap(index, parentIndex);
+
+            index = parentIndex;
+
+            parentIndex = (index - 1) / 2;
+        }
+    }
+
+    private void Swap(int i, int j)
+    {
+        var temp = _values[i];
+        _values[i] = _values[j];
+        _values[j] = temp;
     }
 }
